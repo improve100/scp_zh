@@ -1,3 +1,14 @@
+sudo cp simsun.ttc /usr/share/fonts
+cd  /usr/share/fonts
+sudo chmod 644 simsun.ttc
+更新字体缓存:
+sudo mkfontscale
+sudo mkfontdir
+sudo fc-cache -fsv
+
+
+
+
 [![Build Status](https://travis-ci.org/StellarCN/scp_zh.svg)](https://travis-ci.org/StellarCN/scp_zh)
 
 [恒星共识协议](https://www.stellar.org/papers/stellar-consensus-protocol.pdf)中文翻译
